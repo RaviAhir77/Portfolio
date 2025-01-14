@@ -134,14 +134,14 @@
     justify-content: center;
     height: 40px;
     width: 40px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.34);
     border-radius: 50%;
     margin: 0 15px;
     
 }
 
 .social-media .media-icon:hover{
-    animation:bd 1s ease-in-out 1; 
+    animation:bd 0.6s ease-in-out 1; 
 }
 
 @keyframes bd{
@@ -151,10 +151,10 @@
     }
 
     50%{
-        height: 64px;
-        width:64px;
-        fill: white;
-        background-color: #0a66c2;
+        height: 50px;
+        width:50px;
+        fill: var(--icon-color);
+        background-color: var(--bg-color);
     }
 }
 
