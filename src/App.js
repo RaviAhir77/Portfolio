@@ -1,10 +1,10 @@
 
-import Header from './component/Header'
+import Profile from './view/Profile'
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Profile/>
     </div>
   );
 }

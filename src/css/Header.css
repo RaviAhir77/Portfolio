@@ -10,7 +10,8 @@
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background-color: #50c7b9;
+    background-color: #50c7b9bb;
+    z-index: 1000;  
 }
 
 
@@ -20,6 +21,7 @@ img{
     image-rendering:optimizeQuality;
     user-select: none;
     pointer-events: none;
+    
 }
 .hContaint{
     margin-right:100px;

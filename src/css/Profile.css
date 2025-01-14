@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.profile-wrapper{
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.584); */
+    margin-top: auto;
+    height: 100vh;
+}
+.Profile{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding-top: 140px;
+    max-width: 1024px;
+    min-height: 550px;
+    /* background-color: #ffffff66; */
+}
+
+.PContent .intro{
+    display: inline-block;
+}
+
+.PContent .intro .p{   
+    color: black;
+    font-size: 2rem;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    letter-spacing: 2px;
+    border-right: 0.15rem solid black;
+    white-space: nowrap;
+    animation: typing 2.8s steps(38),blink-cursor 0.8s step-end 4;
+    /* transition: font-size 0.5s ease, border 0.5s ease; */
+}
+
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blink-cursor{
+    to,
+    from{
+        border-color: transparent;
+    }
+    50%{
+        border-color: black;
+    }
+}
+
+.intro .animationEnd{
+    border: none;
+    animation: none;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    font-size: 1.5rem;
+    transition: font-size 0.5s ease, border 0.5s ease;
+}
+
+.PContent .info{
+    /* border: 2px solid green; */
+    margin-top: 3px;
+    font-size: 3rem;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    letter-spacing: 0.08rem;
+}
+
+.PContent .info span{
+    background:linear-gradient(90deg,#FF512F,#DD2476);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.PContent .info-skill{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    letter-spacing: 0.06rem;
+    color: white;
+    font-family: "Space Grotesk", serif;
+    -webkit-text-stroke:1px rgb(183, 66, 66);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.PContent .info-text{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    padding-right: 50px;
+    text-align: justify;
+    opacity: 0.7;
+    font-family: "Space Grotesk", serif;
+
+}
+
+
+.profile-img{
+    height: 440px;
+}
+
+
+.social-media{
+    display: flex;
+    margin: 25px 0;
+    margin-right: 100px;
+    height:65px;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: rgba(0, 128, 0, 0.173); */
+}
+
+.social-media .media-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 15px;
+    
+}
+
+.social-media .media-icon:hover{
+    animation:bd 1s ease-in-out 1; 
+}
+
+@keyframes bd{
+    0%,100%{
+        height: 40px;
+        width:40px;
+    }
+
+    50%{
+        height: 64px;
+        width:64px;
+        fill: white;
+        background-color: #0a66c2;
+    }
+}
+
+
+.social-media .cv-button{
+    font-family: "Space Grotesk", serif;
+    font-size: 1.1rem;
+    padding: 0 5px;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    margin-right: 20px;
+    background-color:#55dc5e;
+    box-shadow: inset 0 -1px 5px rgba(0, 0, 0, 0.164);
+}
+
+
+
+
