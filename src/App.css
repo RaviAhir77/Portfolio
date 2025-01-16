@@ -1,0 +1,11 @@
+@import './css/Experience.css';
+@import './css/Header.css';
+@import './css/Profile.css';
+@import './css/Skill.css';
+
+
+body, html, #root, .App {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

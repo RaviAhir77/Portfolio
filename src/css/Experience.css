@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.Experience{
+    background: linear-gradient(to bottom,#6E07F3 0%,#6E07F3 50%,white 50%,white 100%);
+    margin-top: -50px;
+    padding-bottom:100px;
+    text-align: center;
+    border-bottom:1px solid #0000007c ;
+}
+
+.Experience h1{
+    color: white;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Exprience-container{
+    display: flex;
+    justify-content: center;
+    width: 1024px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid #00000043;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+
+.Experience .project{
+    border-right:1px solid #00000059;
+    padding: 0 5px;
+    width: 33.33%;
+}   
+
+.Experience .project h2{
+    color: #6E07F3;
+    border-bottom: 1px solid #00000051;
+    padding: 10px 0;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.Experience .project span{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90px;
+    margin: 10px 0;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-bottom:1px solid #00000051 ;
+}
+
+.Experience .project span strong{
+    color: #6E07F3;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.Experience .project p{
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0 5px;
+    font-family: "Alice", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
