@@ -55,3 +55,39 @@
   height: auto;
   background-color: rgb(240, 248, 255);
 }
+
+@media (max-width:768px) {
+  .slider-container{
+    max-width: 768px;
+  }
+  .slide img{
+    width: 178px;
+  }
+}
+
+@media(max-width:520px){
+  .skill{
+    margin-top: 100px;
+  }
+  .slider-container{
+    max-width: 520px;
+    margin: 0;
+  }
+
+  .slide img{
+    width: 120px;
+  }
+}
+
+@media(max-width:420px){
+  .skill{
+    min-width: 380px;
+  }
+  .slider-container{
+    max-width: 380px;
+    margin: 0 5px;
+  }
+  .slide img{
+    width: 85px;
+  }
+}

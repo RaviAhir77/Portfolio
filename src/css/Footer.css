@@ -22,7 +22,6 @@
 
 .footer-container img{
     transform: translateY(-20px);
-    /* border: 1px solid red; */
 }
 
 .footer-container .contact-wrapper{
@@ -57,3 +56,37 @@
     margin: 0; 
     padding: 0; 
   }
+
+ @media (max-width:500px){
+
+    .footer-container img{
+        transform: translateY(5px);
+        height: 160px;
+    }
+    .Links div {
+        font-size: 0.75rem;
+    }
+
+    .contact-wrapper h1{
+        font-size: 1.5rem;
+    }
+ }
+
+ @media (max-width:400px){
+    .Footer{
+        min-width: 360px;
+        overflow: hidden;
+    }
+
+    .footer-container img{
+        transform: translateY(5px);
+        height: 140px;
+    }
+    .Links div {
+        font-size: 0.75rem;
+    }
+
+    .contact-wrapper h1{
+        font-size: 1.5rem;
+    }
+ }

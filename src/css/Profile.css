@@ -7,7 +7,6 @@
 }
 .profile-wrapper{
     position: relative;
-    /* background-color: rgba(0, 0, 0, 0.584); */
     margin-top: auto;
     height: 85vh;
 }
@@ -171,6 +170,61 @@
     color: white;
     background-color:#6E07F3;
     box-shadow: inset 0 -1px 5px rgba(0, 0, 0, 0.164);
+}
+
+@media (max-width:840px){
+    .profile-wrapper{
+        height: 720px;
+    }
+}
+
+
+@media (max-width:768px){
+    .profile-wrapper{
+        height: 650px;
+    }
+
+    .profile-img{
+        display: none;
+    }
+
+    .PContent{
+        padding:0 20px;
+    }
+}
+
+
+@media (max-width:480px){
+    .profile-wrapper{
+        margin-top: -50px;
+        height: 500px;
+    }
+
+    .PContent .intro .p{
+        font-size: 1.3rem;
+    }
+
+    .intro .animationEnd{
+        font-size: 1.3rem;
+    }
+
+    .PContent .info{
+        font-size: 1.5rem;
+    }
+
+    .PContent .info-skill{
+        font-size: 1.5rem;
+    }
+
+    .PContent .info-text{
+        font-size: 1rem;
+        width: 360px;
+        padding: 0 5px;
+    }
+
+    .social-media{
+        max-width: 380px;
+    }
 }
 
 

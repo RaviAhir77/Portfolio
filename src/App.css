@@ -1,7 +1,7 @@
-@import './css/Experience.css';
+/* @import './css/Experience.css';
 @import './css/Header.css';
 @import './css/Profile.css';
-@import './css/Skill.css';
+@import './css/Skill.css'; */
 
 
 body, html, #root, .App {
@@ -9,3 +9,4 @@ body, html, #root, .App {
     padding: 0;
     box-sizing: border-box;
 }
+
