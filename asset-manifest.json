@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.312c8a20.css",
+    "main.js": "/Portfolio/static/js/main.6e8299ab.js",
+    "static/media/rb_41562.png": "/Portfolio/static/media/rb_41562.6b610c3c4ea6b8e4ceef.png",
+    "static/media/R-logo.png": "/Portfolio/static/media/R-logo.ce6f7a153119ea3ac9d9.png",
+    "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.6cae7760a21945b9580e3493fdb2749d.svg",
+    "static/media/nodejs.svg": "/Portfolio/static/media/nodejs.f163cddfbfe49648deb1ce8917207b77.svg",
+    "static/media/react.svg": "/Portfolio/static/media/react.c60e072461a29d9c38291223075ac016.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.074f08264b8ed366dbd318a395cba239.svg",
+    "static/media/git.svg": "/Portfolio/static/media/git.fff69573d1c741b67fee90c17414d27c.svg",
+    "static/media/html.svg": "/Portfolio/static/media/html.8af6948df811f46a0eadbe39ad98638b.svg",
+    "static/media/css.svg": "/Portfolio/static/media/css.bba0846c17cbd72752bd3deda1c1fdae.svg",
+    "static/media/javascript.svg": "/Portfolio/static/media/javascript.cb6c28ae8b07ac4ffe29cee2352650dd.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.312c8a20.css.map": "/Portfolio/static/css/main.312c8a20.css.map",
+    "main.6e8299ab.js.map": "/Portfolio/static/js/main.6e8299ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.312c8a20.css",
+    "static/js/main.6e8299ab.js"
+  ]
+}
