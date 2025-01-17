@@ -18,7 +18,7 @@ const Profile = () => {
     const allfill = 'white';
 
     const handleDownload = () => {
-        const fileUrl = '/resume.pdf';
+        const fileUrl = `${process.env.PUBLIC_URL}/resume.pdf`;
         const link = document.createElement('a');
         link.href = fileUrl;
         link.download = 'Resume.pdf'; 
